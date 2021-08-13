@@ -1,0 +1,352 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* MY CSS */ /* MY CSS */ /* MY CSS */
+
+main {
+  display: flex;
+}
+
+.main-one {
+  flex: 1.5;
+  margin: 30px;
+}
+
+.main-article img {
+  width: 170px;
+  height: 170px;
+  margin-bottom: 10px;
+}
+
+.main-article h1 {
+  font-size: 50px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: 30px;
+}
+
+article p {
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  opacity: 0.8;
+  text-align: justify;
+  padding-right: 20px;
+  margin-bottom: 50px;
+}
+.about-article {
+  padding-bottom: 180px;
+}
+.about-article img {
+  width: 28px;
+  height: 28px;
+  margin-top: 32px;
+  padding-right: 10px;
+}
+
+.about-article a {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  text-decoration: none;
+  color: black;
+}
+
+footer {
+  text-align: center;
+}
+
+footer > span {
+  font-size: 13px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  width: 100%;
+}
+
+/* Main Two */ /* Main Two */
+.main-two {
+  flex: 2;
+  background-image: url(./aset/bg.jpg);
+  object-fit: cover;
+  background-repeat: no-repeat;
+}
+
+.main-input {
+  margin: 50px 100px;
+  box-shadow: 1px 1px 7px #888888;
+  background-color: white;
+  border-radius: 25px;
+  padding: 15px;
+}
+
+.navbar-form {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 80px;
+  background-color: white;
+  line-height: 80px;
+  font-size: 40px;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-bottom: 16px;
+  padding-top: 16px;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+}
+
+.navbar-form h1 {
+  border-bottom: 2px solid grey;
+}
+
+.form {
+  display: flex;
+  justify-content: center;
+  padding: 50px;
+}
+
+.form-input > input {
+  width: 450px;
+  height: 50px;
+  margin-bottom: 35px;
+  margin-top: 13px;
+  padding-left: 10px;
+  font-size: 16px;
+  border-radius: 10px;
+  border: none;
+  background-color: rgb(247, 247, 247);
+  box-shadow: 1px 1px 5px #888888;
+}
+
+.form-input > label {
+  font-size: 22px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.form-radios .check h3 {
+  font-size: 22px;
+  color: black;
+}
+
+.form-radios > input {
+  width: 22px;
+  height: 22px;
+  background-color: rgb(228, 228, 228);
+  margin-bottom: 34px;
+  border: none;
+  border-radius: 50%;
+}
+
+.form-radios > label {
+  font-size: 20px;
+  opacity: 0.7;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.form-textarea label {
+  font-size: 22px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.form-textarea textarea {
+  width: 440px;
+  max-width: 440px;
+  min-width: 440px;
+  max-height: 50px;
+  min-height: 50px;
+  padding: 10px;
+  font-size: 17px;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgb(247, 247, 247);
+  border-radius: 10px;
+  margin-bottom: 30px;
+  margin-top: 15px;
+  box-shadow: 1px 1px 5px #888888;
+  border: none;
+}
+
+.btn {
+  text-align: center;
+}
+
+.btn button {
+  width: 300px;
+  height: 55px;
+  font-size: 20px;
+  font-weight: bold;
+  background-color: rgb(99, 52, 120);
+  border: none;
+  border-radius: 10px;
+}
+
+@media (max-width: 540px) {
+  main {
+    display: flex;
+    flex-wrap: wrap-reverse;
+    height: 100%;
+  }
+
+  .main-one {
+    margin-bottom: 50px;
+  }
+
+  .main-two {
+    margin: 2px;
+    background-image: none;
+    border-bottom: 2px solid black;
+    padding-bottom: 20px;
+    margin-bottom: 50px;
+  }
+  .main-input {
+    margin: 2px;
+    box-shadow: none;
+    margin-bottom: 10px;
+  }
+
+  .navbar-form {
+    border-top-left-radius: none;
+    border-top-right-radius: none;
+    box-shadow: none;
+  }
+
+  .form {
+    padding: 10px;
+    box-shadow: none;
+    border-radius: none;
+  }
+
+  .form-input input {
+    width: 97%;
+  }
+
+  .footer {
+    margin-bottom: 500px;
+  }
+
+  .footer > span {
+    padding-bottom: 100px;
+    border-left: none;
+  }
+}

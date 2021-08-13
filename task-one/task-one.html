@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Task one</title>
+  </head>
+  <body>
+    <div class="navbar"></div>
+    <div class="container">
+      <div class="main">
+        <!-- Content -->
+        <div class="content">
+          <nav>
+            <img src="./aset/user.png" alt="profil" />
+            <h1 id="displayName">Adi <br />Syahputra</h1>
+          </nav>
+          <article>
+            <p id="displaySummary">
+              Hai nama saya <em>Adi syahputra</em> Saya berasal dari medan sumatera utara, saya adalah peserta preclass <b>batch 5</b>.<br />
+              Saat ini saya mengikuti kelas ini untuk memperdalam dasar pemrograman dan suapaya saya saya masuk kelas fullstack javascript di bootcamp <a href="https://dumbways.id/">dumbways</a>.<br />
+              Saya berusia 20 tahun serta saya memiliki hobi bermain bola. Pendidikan terakhir saya adalah sma. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum officiis, inventore quos porro aliquid eligendi aut eius natus
+              magni est reprehenderit quibusdam soluta harum accusamus maiores repellat beatae? Necessitatibus, quaerat?
+            </p>
+          </article>
+          <footer>
+            <ul>
+              <img src="./aset1/smartphone.png" alt="facebook" />
+              <a id="displayPhone" href="#">Phone</a>
+              <br />
+              <img src="./aset1/gmail.png" alt="instagram" />
+              <a id="displayGmail" href="#">Gmail</a>
+              <br />
+              <img src="./aset1/gender.png" alt="telegram" />
+              <a id="displayGender" href="#">Gender</a>
+              <br />
+              <img src="./aset1/hobby.png" alt="linkedin" />
+              <a id="displayHobby" href="#">Hobby</a>
+              <br />
+              <img src="./aset1/address.png" alt="github" />
+              <a id="displayAddress" href="#">Address</a>
+              <br />
+            </ul>
+          </footer>
+        </div>
+        <!-- Form -->
+        <div class="content-form">
+          <div class="navbar-form-input"><h3>Input Your Data</h3></div>
+          <div class="form-input">
+            <form action="#" id="form">
+              <div class="content-input">
+                <div class="input">
+                  <label for="name"><b>Name</b></label>
+                  <br />
+                  <input type="text" name="name" id="name" placeholder="ex.jhon" />
+                  <br /><br />
+                  <label for="phone"><b>Phone</b></label>
+                  <br />
+                  <input type="text" name="phone" id="phone" placeholder="ex.0123456789" />
+                  <br /><br />
+                  <label for="email"><b>Email</b></label>
+                  <br />
+                  <input type="email" name="email" id="email" placeholder="ex.jhon@gmail.com" />
+                  <br /><br />
+                  <label for="password"><b>Password</b></label>
+                  <br />
+                  <input type="password" name="password" id="password" placeholder="********" autocomplete="off" />
+                  <br /><br />
+                </div>
+                <div class="input-check">
+                  <label class="check" for="genders"><b>Gender</b></label>
+                  <br /><br />
+                  <!-- Radio -->
+                  <input type="radio" name="genders" id="female" value="Female" />
+                  <label for="female"><em>Female</em></label>
+                  <input type="radio" name="genders" id="male" value="Male" />
+                  <label for="male"><em>Male</em></label>
+                  <br /><br />
+                  <!-- Checkbox -->
+                  <label for="hobby" class="check"><b>Hobby</b></label>
+                  <br /><br />
+                  <input type="checkbox" class="checkbox" id="football" name="football" value="football" />
+                  <label for="football">Football</label>
+                  <input type="checkbox" class="checkbox" id="fishing" name="fishing" value="fishing" />
+                  <label for="fishing">Fishing</label>
+                  <br /><br />
+                  <input type="checkbox" class="checkbox" id="singing" name="singing" value="singing" />
+                  <label for="singing">Singing</label>
+                  <input type="checkbox" class="checkbox" id="swimming" name="swimming" value="swimming" />
+                  <label for="swimming">Swimming</label>
+                  <br /><br />
+                  <div class="textarea">
+                    <label for="address"><b>Address</b></label>
+                    <br />
+                    <textarea name="address" id="address" cols="30" rows="5" placeholder=""></textarea>
+                    <br /><br />
+                    <label for="summary"><b>Summary</b></label>
+                    <br />
+                    <textarea name="summary" id="summary" cols="30" rows="5" placeholder=""></textarea>
+                  </div>
+                </div>
+              </div>
+              <br /><br />
+              <div class="btn">
+                <button type="submit"><b>Submit</b></button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="script.js"></script>
+</html>

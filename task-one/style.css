@@ -1,0 +1,297 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* CSS */ /* CSS */ /* CSS */
+
+.navbar {
+  width: 100%;
+  height: 64px;
+  background-color: rgb(11, 34, 57);
+  box-shadow: 1px 1px 10px #888888;
+}
+
+body {
+  background-color: rgb(220, 226, 230);
+}
+
+.main {
+  display: flex;
+  margin: 50px;
+  background-color: white;
+  border-radius: 25px;
+  box-shadow: 1px 1px 7px #888888;
+}
+
+/* Content */
+
+.content {
+  flex: 2;
+  border-right: 3px solid rgb(11, 34, 57);
+}
+
+nav img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-top: 50px;
+  margin-left: 60px;
+}
+
+nav h1 {
+  font-size: 44px;
+  margin-left: 30px;
+  margin-bottom: 45px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+article {
+  font-size: 19px;
+  margin-left: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 25px;
+  text-align: justify;
+  padding-right: 50px;
+  margin-left: 30px;
+  opacity: 0.7;
+}
+
+p > a {
+  text-decoration: none;
+}
+
+article > ul > li > h1 {
+  margin-top: 5px;
+  font-size: 27px;
+  margin-bottom: 20px;
+  color: rgb(22, 20, 20);
+}
+
+footer {
+  margin-top: 170px;
+  margin-left: 30px;
+  display: flex;
+  flex-direction: column;
+}
+
+footer a {
+  text-decoration: none;
+  font-size: 20px;
+  margin-left: 8px;
+  color: rgb(11, 34, 57);
+}
+
+footer img {
+  width: 30px;
+  height: 30px;
+  margin-top: 18px;
+}
+
+.content-form {
+  flex: 1;
+  padding: 10px;
+}
+
+.navbar-form-input {
+  font-size: 40px;
+  text-align: center;
+  margin: 50px;
+  border-bottom: 2px solid rgb(11, 34, 57);
+}
+.navbar-form-input h3 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.form-input {
+  display: flex;
+  justify-content: center;
+}
+
+.input label {
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.input input {
+  padding-left: 10px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  width: 300px;
+  height: 40px;
+  font-size: 17px;
+}
+
+.input-check {
+  font-size: 18px;
+  margin-top: 20px;
+}
+
+.input-check .check {
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.textarea {
+  margin-top: 20px;
+}
+
+.textarea label b {
+  font-size: 23px;
+}
+
+.textarea textarea {
+  width: 292px;
+  max-width: 292px;
+  min-width: 292px;
+  max-height: 80px;
+  min-height: 80px;
+  padding: 10px;
+  font-size: 17px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+textarea {
+  margin-top: 7px;
+}
+
+.btn {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.btn button {
+  width: 150px;
+  height: 40px;
+  font-size: 16px;
+  font-weight: bold;
+  background-color: rgb(93, 211, 149);
+  color: rgb(255, 254, 248);
+}
